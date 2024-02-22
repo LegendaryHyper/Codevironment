@@ -25,4 +25,4 @@ async def googlesearch(ctx, *search_msg: str):
     for URL in search(searchmessage, stop=5):
         url = URL
         await ctx.message.author.send(str(url))
-bot.run("MTIwNzc1MTAyMjIxOTYyNDQ2OQ.G-bREp.GXDcaPabl5b0w0XBzSGRlCyzpAVH0Cj3JDiHio")
+bot.run("TOKEN")
